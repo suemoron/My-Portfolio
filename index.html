@@ -1,0 +1,260 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css">
+    <title>Portfólio | Suellen Moron</title>
+    <link rel="icon" href="assents/boneca.png" type="image/png">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm py-1 navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assents/logo.png" alt="Logo" class="logo img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#contate-me">Contate-me</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-secondary ms-3" aria-label="Alternar tema">
+                    <span class="icon">☀️</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="py-5 my-4">
+        <div class="container home-section custom-width p-4 custom-height d-flex justify-content-center align-items-center">
+            <div class="row align-items-center w-100">
+                <div class="col-12 col-lg-6 home-content custom-padding">
+                    <h1 class="display-4 fw-bold text-white">Olá</h1>
+                    <h1 class="display-4 fw-bold text-white mb-4">Eu sou a Suellen Moron</h1>
+                    <div class="typing-text mb-4">Sou <span id="typing-effect"></span></div>
+                    <div class="social-media d-flex gap-3 mb-4">
+                        <a href="https://www.linkedin.com/in/suellen-moron-803220224/" target="_blank">
+                            <img src="assents/linkedin_3536569.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://github.com/suemoron" target="_blank">
+                            <img src="assents/github_3291695.png" alt="GitHub" class="social-icon">
+                        </a>
+                        <a href="https://wa.me/5554996745653" target="_blank">
+                            <img src="assents/whatsapp_254409.png" alt="WhatsApp" class="social-icon">
+                        </a>
+                        <a href="assents/Suellen Moron Curriculo.pdf" target="_blank" download>
+                            <img src="assents/cv_6314430.png" alt="Currículo" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="assents/boneca.png" class="profile-img img-fluid" alt="Suellen Moron">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title text-dark">Sobre mim</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-7 about-content">
+                    <p class="lead text-primary">Olá! Me chamo Suellen Moron, tenho 25 anos e sou estudante apaixonada por tecnologia. Estou no 3º semestre de Análise e Desenvolvimento de Sistemas e no 1º semestre de Sistemas para Internet pelo Instituto Federal Sul-rio-grandense (IFSul), onde venho desenvolvendo minhas habilidades em front-end com foco em criar experiências web modernas e acessíveis.</p>
+                    <p class="lead text-primary">Tenho um grande interesse por design e desenvolvimento web, e adoro explorar linguagens e ferramentas como JavaScript e Python. Sou movida por desafios e busco constantemente automatizar tarefas do dia a dia, seja em projetos acadêmicos ou pessoais.</p>
+                    <p class="lead text-primary"> Ainda não possuo experiência profissional na área, mas estou em busca da minha primeira oportunidade como desenvolvedora front-end. Tenho muita vontade de aprender, crescer profissionalmente e contribuir com soluções criativas em projetos reais.</p>
+                </div>
+                <div class="col-lg-5 about-img-container text-center">
+                    <img src="assents/4380747-removebg-preview.png" class="about-img img-fluid" alt="Suellen Moron">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="py-5 skills-section">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title text-dark">Habilidades</h2>
+            <div class="row justify-content-center g-5">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/html_1051277.png" alt="HTML" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">HTML</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/css-3_732190.png" alt="CSS" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">CSS</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/js_5968292.png" alt="JavaScript" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">JAVASCRIPT</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/science_13065981.png" alt="React" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">REACT</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/gitt.png" alt="Git" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">GIT</h5>
+                    </div>
+                </div>
+                 <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card p-3 text-center rounded">
+                        <img src="assents/boot.png" alt="bootstrap" class="img-fluid mb-2" width="50">
+                        <h5 class="text-primary">BOOTSTRAP</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title text-dark">Projetos</h2>
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <img src="assents/portflow.jpg" alt="Portflow" class="project-img rounded">
+                            <div class="project-overlay rounded">
+                                <a href="" target="_blank" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="https://github.com/suemoron/Portflow" target="_blank" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <h3 class="text-primary">Portflow</h3>
+                            <p class="text-primary">HTML | CSS</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <img src="assents/cafeteria.jpg" alt="Cafeteria" class="project-img rounded">
+                            <div class="project-overlay rounded">
+                                <a href="https://github.com/suemoron/Cafeteria" target="_blank" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="https://cafeteria-eosin.vercel.app/" target="_blank" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <h3 class="text-primary">Cafeteria</h3>
+                            <p class="text-primary">HTML | CSS</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <img src="assents/nikel.PNG" alt="Nikel" class="project-img rounded">
+                            <div class="project-overlay rounded">
+                                <a href="https://nikel-three.vercel.app/" target="_blank" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="https://github.com/suemoron/Nikel" target="_blank" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <h3 class="text-primary">Nikel</h3>
+                            <p class="text-primary">HTML | CSS | BOOTSTRAP | JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <img src="assents/petshop.png" alt="Petshop" class="project-img rounded">
+                            <div class="project-overlay rounded">
+                                <a href="https://petshop-sandy-nu.vercel.app/" target="_blank" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="https://github.com/suemoron/Petshop"  target="_blank" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <h3 class="text-primary">Petshop</h3>
+                            <p class="text-primary">HTML | CSS</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 5 (vazio) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <div class="project-img bg-light rounded"></div>
+                            <div class="project-overlay rounded">
+                                <a href="#" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="#" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 6 (vazio) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-3 rounded">
+                        <div class="position-relative">
+                            <div class="project-img bg-light rounded"></div>
+                            <div class="project-overlay rounded">
+                                <a href="#" class="btn btn-light custom-btn">Ver Projeto</a>
+                                <a href="#" class="btn btn-light custom-btn">Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contate-me" class="py-4 contact-section d-flex align-items-center">
+        <div class="container text-center">
+            <h2 class="mb-4 section-title text-dark">Contatos</h2>
+            <p class="lead mb-5 text-primary">Se você deseja entrar em contato, fique à vontade para me enviar uma mensagem!</p>
+            <div class="icon d-flex justify-content-center gap-4 mb-5">
+                <a href="https://www.linkedin.com/in/suellen-moron-803220224/" target="_blank">
+                    <img src="assents/linkedin_3536569.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://wa.me/5554996745653" target="_blank">
+                    <img src="assents/whatsapp_254409.png" alt="WhatsApp" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-3 footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Meu Site. Todos os direitos reservados a Suellen Moron.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

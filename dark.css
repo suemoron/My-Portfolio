@@ -1,0 +1,91 @@
+/* Tema escuro */
+body.dark {
+    background-color: #121212;
+    color: #f8ebe2;
+}
+body.dark .navbar {
+    background-color: #1e1e1e !important;
+}    
+body.dark .nav-link {
+    color: #adb5bd;
+} 
+body.dark .navbar-toggler{
+    background-color: #0d1d41;
+}
+body.dark .nav-link:hover {
+    color: #79afff;
+
+}       
+body.dark .section-title {
+    color: #f8f9fa !important;
+}
+body.dark .home-section {
+    background: linear-gradient(to right, #0d1d41, #0072ff);
+}
+body.dark .home-section .typing-text {
+    color: #1ed2ff;
+    font-weight: bold;
+}
+body.dark .about-section {
+    background-color: #1e1e1e;
+}
+body.dark .about-content {
+    color: #f8f9fa;
+}
+body.dark .about-img {
+    filter: brightness(0.8);
+}
+body.dark .skills-section {
+    background-color: #1e1e1e;
+}
+body.dark .skill-card {
+    background-color: #141414;
+    border: 2px solid #5498fd;
+}
+body.dark .skill-card:hover {
+    background-color: #000000;
+    border: 2px solid #0066ff;
+}
+
+body.dark .project-card {
+    background-color: #2a2a2a;
+    border: none;
+}
+body.dark .project-card:hover {
+    background-color: #0000006b;
+    border: 2px solid rgb(67, 195, 255);
+}
+body.dark .project-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+body.dark .project-card:hover .project-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.body.dark .btn-light{
+    background-color: #ffffff;
+    color: #2c96ff;
+}
+body.dark .contact-section {
+    background-color:#1e1e1e;
+}
+body.dark .footer {
+    background-color: #131313;
+}
+body.dark .footer a {
+    color: #adb5bd;
+}
+body.dark .footer a:hover {
+    color: #a1c6ff;
+}
+body.dark .footer p {
+    color: #f8f9fa;
+}
+.body.dark .social-icon{
+    background-color: #fafafa;
+    border-radius: 25px;
+    border: 2px solid rgb(46, 203, 255);
+}
+body.dark .icon .social-icon:hover {
+    box-shadow: 0 0 15px 5px rgba(77, 199, 255, 0.884);
+    background-color: #03b8ff;
+}
