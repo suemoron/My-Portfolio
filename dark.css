@@ -10,7 +10,7 @@ body.dark .nav-link {
     color: #adb5bd;
 } 
 body.dark .navbar-toggler{
-    background-color: #0d1d41;
+    background-color: #424242;
 }
 body.dark .nav-link:hover {
     color: #79afff;
